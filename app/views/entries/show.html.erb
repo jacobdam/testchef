@@ -1,0 +1,18 @@
+<p>
+  <b>Title:</b>
+  <%=h @entry.title %>
+</p>
+
+<p>
+  <b>Content:</b>
+  <%=h @entry.content %>
+</p>
+
+<p>
+  <b>Created at:</b>
+  <%=h @entry.created_at %>
+</p>
+
+
+<%= link_to 'Edit', edit_entry_path(@entry) %> |
+<%= link_to 'Back', entries_path %>
