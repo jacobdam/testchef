@@ -71,6 +71,7 @@ class EntriesController < ApplicationController
     end
   end
 
+  
   # DELETE /entries/1
   # DELETE /entries/1.xml
   def destroy
